@@ -14,9 +14,9 @@ for sym in range(0, nr_symbols):
     password_list += random.choice(symbols)
 for num in range(0, nr_numbers):
     password_list += random.choice(numbers)
-print(password_list)
+# print(password_list)
 random.shuffle(password_list)
-print(password_list)
+# print(password_list)
 password = ""
 for char in password_list:
     password += char
